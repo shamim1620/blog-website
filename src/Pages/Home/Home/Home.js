@@ -2,13 +2,14 @@ import React from 'react';
 import useAuth from '../../../hooks/useAuth';
 
 import Navigation from '../../Navigation/Navigation';
+import Blog from '../Blog/Blog';
 
 const Home = () => {
 
     return (
         <div>
             <Navigation></Navigation>
-            <h4>this is home</h4>
+            <Blog></Blog>
 
 
 
